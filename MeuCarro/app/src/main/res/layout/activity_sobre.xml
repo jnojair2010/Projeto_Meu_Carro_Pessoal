@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    android:background="@color/white"
+    tools:context=".Sobre">
+    <ScrollView
+        android:id="@+id/scrouview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+            <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+                    <TextView
+                        android:id="@+id/titulo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:justificationMode="inter_word"
+                        android:text=" Aplicativo Meu Carro"
+                        android:textColor="@color/black"
+                        android:textAlignment="center"
+                        android:textSize="18dp">
+                    </TextView>
+                    <TextView
+                        android:id="@+id/sobre"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:layout_below="@+id/titulo"
+                        android:justificationMode="inter_word"
+                        android:textColor="@color/black"
+                        android:textSize="18dp"
+                        android:text=" Este Aplicativo foi desenvolvido
+                        com o objetivo de gerir a manutenção de veículos, e de visualizar de modo bem direto, bem
+                        objetivo o desgaste de cada peça em um veículo pelo kilômetro rodado. \n
+                        O esquecimento do próprietário sobre como anda o desgaste das peças de seu veículo
+                        que tem como base o km rodado, é sempre muito grande, por este motivo foi criado este app,
+                        para mostar de modo bem a leitura pelo usuario o uso das peças.\n
+                        A princípio a criação deste aplicação teve um objetivo mais pessoal, mas
+                        seu devenvolverdor optou por expandir a outros usuário que acharem sua leitura bem interessante. ">
+                    </TextView>
+
+                    <ImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="115dp"
+                        android:layout_height="106dp"
+                        android:layout_below="@+id/sobre"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginStart="144dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginEnd="138dp"
+                        android:background="@drawable/foto_autor"
+                        tools:layout_editor_absoluteX="119dp"
+                        tools:layout_editor_absoluteY="86dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/imageView"
+                        android:layout_marginTop="25dp"
+                        android:justificationMode="inter_word"
+                        android:textAlignment="center"
+                        android:text=" Jair de Oliveira \n Desenvolvedor de sistemas formando em técnologia de informação."
+                        android:textColor="@color/black"
+                        android:textSize="18dp">
+
+                    </TextView>
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

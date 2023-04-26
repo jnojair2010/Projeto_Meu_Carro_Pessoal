@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="6dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:elevation="5dp"
+    android:background="#37474f">
+
+    <TextView
+        android:id="@+id/txtNomeCarro"
+        android:layout_width="wrap_content"
+        android:layout_height="31dp"
+        android:text="Carro"
+        android:textSize="16dp"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/white"
+        android:layout_marginLeft="10dp"></TextView>
+
+    <TextView
+        android:id="@+id/labelData"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:textColor="@color/white"
+        android:layout_gravity="right"
+        android:text="data"></TextView>
+
+    <TextView
+        android:id="@+id/txtNomeManutencao"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:paddingTop="25dp"
+        android:paddingLeft="30dp"
+        android:textColor="@color/white"
+        android:text="Manutencao"
+        android:textSize="14dp"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="3dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginBottom="5dp"/>
+</FrameLayout>

@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/atTxtdata"
+        android:layout_width="match_parent"
+        android:text="Data da Comprar: (Fundamental Cadastrar)"
+        android:textColor="@color/black" android:layout_marginTop="5dp"
+        android:layout_height="30dp">
+    </TextView>
+
+    <EditText
+        android:id="@+id/edtAtData"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/atTxtdata"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/selector_background_input"
+        android:text="Data Selecionda"
+        android:textColor="@color/black">
+    </EditText>
+
+
+    <TextView
+        android:id="@+id/txtAtNome"
+        android:layout_width="match_parent"
+        android:text="Nome do Item:"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/edtAtData"
+        android:textColor="@color/black"
+        android:layout_height="20dp">
+    </TextView>
+
+    <EditText
+        android:id="@+id/edtAtNome"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/txtAtNome"
+        android:textColor="@color/black"
+        android:background="@drawable/selector_background_input"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp">
+    </EditText>
+
+    <TextView
+        android:id="@+id/txtAtMarca"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginTop="15dp"
+        android:text="Marca:"
+        android:textColor="@color/black"
+        android:layout_below="@+id/edtAtNome">
+    </TextView>
+    <EditText
+        android:id="@+id/edtAtMarca"
+        android:layout_width="match_parent"
+        android:background="@drawable/selector_background_input"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/txtAtMarca">
+    </EditText>
+    <TextView
+        android:id="@+id/txtAtReferencia"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginTop="15dp"
+        android:text="Referência:"
+        android:textColor="@color/black"
+        android:layout_below="@+id/edtAtMarca">
+    </TextView>
+    <EditText
+        android:id="@+id/edtAtReferencia"
+        android:layout_width="match_parent"
+        android:background="@drawable/selector_background_input"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/txtAtReferencia">
+    </EditText>
+
+    <TextView
+        android:id="@+id/txtAtkmAtual"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginTop="15dp"
+        android:text="Km Atual do Carro:"
+        android:textColor="@color/black"
+        android:layout_below="@+id/edtAtReferencia">
+    </TextView>
+    <EditText
+        android:id="@+id/edtAtKmAtual"
+        android:layout_width="match_parent"
+        android:background="@drawable/selector_background_input"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/black"
+        android:inputType="number"
+        android:layout_below="@+id/txtAtkmAtual">
+    </EditText>
+
+
+    <TextView
+        android:id="@+id/txtAtKmVidaUtil"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_below="@+id/edtAtKmAtual"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/black"
+        android:textSize="13dp"
+        android:text="Km de validade (IMPOTANTE) Ex.: 20.000 km">
+    </TextView>
+    <EditText
+        android:id="@+id/edtAtKmVidaUtil"
+        android:layout_width="match_parent"
+        android:background="@drawable/seletor_background_input_importante"
+        android:layout_height="50dp"
+        android:layout_below="@+id/txtAtKmVidaUtil"
+        android:textColor="@color/black"
+        android:layout_marginTop="5dp"
+        android:inputType="number">
+    </EditText>
+    <TextView
+        android:id="@+id/txtLocal"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_below="@+id/edtAtKmVidaUtil"
+        android:text="Local que Comprou"
+        android:textColor="@color/black"
+        android:layout_marginTop="15dp">
+    </TextView>
+    <EditText
+        android:id="@+id/edtAtLocal"
+        android:layout_width="match_parent"
+        android:background="@drawable/selector_background_input"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/txtLocal">
+    </EditText>
+    <TextView
+        android:id="@+id/txtValor"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginTop="15dp"
+        android:text="Preço R$:"
+        android:textColor="@color/black"
+        android:layout_below="@+id/edtAtLocal">
+    </TextView>
+    <EditText
+        android:id="@+id/edtAtPreco"
+        android:layout_width="match_parent"
+        android:background="@drawable/selector_background_input"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/txtValor"
+        android:inputType="numberDecimal">
+    </EditText>
+    <TextView
+        android:id="@+id/txtAtCupom"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginTop="15dp"
+        android:text="Cupom:"
+        android:textColor="@color/black"
+        android:layout_below="@+id/edtAtPreco">
+    </TextView>
+    <EditText
+        android:id="@+id/edtAtCupom"
+        android:layout_width="match_parent"
+        android:background="@drawable/selector_background_input"
+        android:layout_height="50dp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/txtAtCupom"
+        android:layout_marginTop="5dp">
+    </EditText>
+    <TextView
+        android:id="@+id/txtQuantidade"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_below="@+id/edtAtCupom"
+        android:textColor="@color/black"
+        android:text="Quantidade:"
+        android:layout_marginTop="15dp">
+    </TextView>
+    <EditText
+        android:id="@+id/edtAtQuantidade"
+        android:layout_width="match_parent"
+        android:background="@drawable/selector_background_input"
+        android:layout_height="50dp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/txtQuantidade"
+        android:layout_marginTop="5dp"
+        android:inputType="number">
+    </EditText>
+
+    <Button
+        android:id="@+id/btnAtAtualizarPeca"
+        android:layout_width="match_parent"
+        android:text="Atualizar"
+        android:background="@drawable/seletor_buttons"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:layout_below="@+id/edtAtQuantidade">
+    </Button>
+
+</RelativeLayout>

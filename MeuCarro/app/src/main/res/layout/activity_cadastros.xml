@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Cadastros">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="60dp">
+                <FrameLayout
+                    android:id="@+id/fragments_cadastro_manutencao"
+                    android:layout_width="wrap_content"
+                    android:background="@color/white"
+                    android:layout_height="match_parent">
+
+                </FrameLayout>
+            </ScrollView>
+
+           <com.google.android.material.bottomnavigation.BottomNavigationView
+                android:id="@+id/button_navigation_fragments_cadastros"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="3dp"
+                app:itemBackground="@color/teal_700"
+                app:itemIconTint="@drawable/seletor"
+                app:itemTextColor="@drawable/seletor"
+                app:menu="@menu/menu_cadastro_all_manutencao">
+
+            </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+</RelativeLayout>

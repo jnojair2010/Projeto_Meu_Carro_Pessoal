@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+    <TextView
+        android:id="@+id/txtData"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/black"
+        android:text="Data da Manutenção">
+    </TextView>
+
+    <EditText
+        android:id="@+id/edtDataManutencao"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/txtData"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/selector_background_input"
+        android:textColor="@color/black">
+    </EditText>
+
+    <TextView
+        android:id="@+id/txtTipo"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/black"
+        android:text="Tipo de Manutencao"
+        android:layout_below="@+id/edtDataManutencao">
+    </TextView>
+    <Spinner
+        android:id="@+id/spnTipo"
+        android:layout_width="match_parent"
+        android:background="@drawable/background_selects"
+        android:layout_below="@+id/txtTipo"
+        android:layout_marginTop="5dp"
+        android:entries="@array/tipo"
+        android:layout_height="50dp"/>
+    <TextView
+        android:id="@+id/txtTipoCar"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/black"
+        android:text="Selecione um Carro:"
+        android:layout_below="@+id/spnTipo">
+    </TextView>
+
+    <Spinner
+        android:id="@+id/spnCar"
+        android:layout_width="match_parent"
+        android:background="@drawable/background_selects"
+        android:layout_below="@+id/txtTipoCar"
+        android:layout_marginTop="5dp"
+        android:layout_height="50dp"/>
+    <TextView
+        android:id="@+id/txtKmatualCar"
+        android:layout_width="wrap_content"
+        android:textColor="@color/black"
+        android:layout_height="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/spnCar"
+        android:text="Informe o Km Atual de seu Carro:">
+    </TextView>
+    <EditText
+        android:id="@+id/edtKmAtualCar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/txtKmatualCar"
+        android:textColor="@color/black"
+        android:background="@drawable/seletor_background_input_importante"
+        android:inputType="number"
+        >
+    </EditText>
+    <TextView
+        android:id="@+id/nomeManutencao"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:text="Nome da Manutencao"
+        android:textColor="@color/black"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/edtKmAtualCar">
+        
+    </TextView>
+    <EditText
+        android:id="@+id/edtNomeManutencao"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/selector_background_input"
+        android:layout_below="@+id/nomeManutencao">
+
+    </EditText>
+    <TextView
+        android:id="@+id/txtLocalManutencao"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginTop="15dp"
+        android:text="Local de Manutenção"
+        android:textColor="@color/black"
+        android:layout_below="@+id/edtNomeManutencao">
+
+    </TextView>
+    <EditText
+        android:id="@+id/edtLocalManutencao"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/selector_background_input"
+        android:textColor="@color/black"
+        android:layout_below="@+id/txtLocalManutencao">
+        
+    </EditText>
+    <TextView
+        android:id="@+id/txtMecanicao"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginTop="15dp"
+        android:text="Nome do Mecânico"
+        android:textColor="@color/black"
+        android:layout_below="@+id/edtLocalManutencao">
+
+    </TextView>
+    <EditText
+        android:id="@+id/edtNomeMecanico"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/selector_background_input"
+        android:textColor="@color/black"
+        android:layout_below="@+id/txtMecanicao">
+    </EditText>
+    <TextView
+        android:id="@+id/txtPrecoManutencao"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/edtNomeMecanico"
+        android:text="Preço da manutencao R$">
+    </TextView>
+    <EditText
+        android:id="@+id/edtPrecoManutencao"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/black"
+        android:background="@drawable/selector_background_input"
+        android:layout_below="@+id/txtPrecoManutencao"
+        android:inputType="numberDecimal">
+    </EditText>
+    <TextView
+        android:id="@+id/Km_validade"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="Km Próxima Troca: IMPORTANTE"
+        android:textColor="@color/black"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/edtPrecoManutencao">
+        
+    </TextView>
+    <EditText
+        android:id="@+id/edtKmProximaManutencao"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="5dp"
+        android:inputType="number"
+        android:background="@drawable/seletor_background_input_importante"
+        android:layout_below="@+id/Km_validade">
+    </EditText>
+
+    <TextView
+        android:id="@+id/txtCupomManutencao"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginTop="15dp"
+        android:text="Cupom / nota /OS"
+        android:textColor="@color/black"
+        android:layout_below="@+id/edtKmProximaManutencao"></TextView>
+    <EditText
+        android:id="@+id/edtCupomManutencao"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/selector_background_input"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/txtCupomManutencao">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/btnSalvarManutencao"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="salvar"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/white"
+        android:background="@drawable/seletor_buttons"
+        android:layout_below="@+id/edtCupomManutencao">
+
+    </Button>
+
+
+
+
+</RelativeLayout >

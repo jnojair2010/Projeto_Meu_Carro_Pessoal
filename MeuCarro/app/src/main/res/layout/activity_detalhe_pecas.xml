@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="5dp"
+    tools:context=".DetalhePecas"
+    android:orientation="vertical">
+
+    <Switch
+        android:id="@+id/onOf"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:background="#cfd8dc "
+        android:text="Atualizar Peça" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="10dp">
+            <FrameLayout
+                android:id="@+id/detalhePecas"
+                android:layout_width="match_parent"
+                android:background="@color/white"
+                android:layout_marginTop="5dp"
+                android:layout_height="wrap_content"
+
+                >
+            </FrameLayout>
+    </ScrollView>
+
+    <!--RelativeLayout
+        android:id="@+id/relativeLayoutDetalheManutencao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="6dp"
+        android:paddingRight="6dp"
+        android:paddingBottom="6dp"
+        android:background="@drawable/seletor_personalizar_relative_layout_detalhe_manutencao">
+
+        <TextView
+            android:id="@+id/labelDetalhe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Detalhe"
+            android:textSize="20dp"
+            android:paddingLeft="10dp"
+            android:background="@drawable/selector_texview_nome_detale_manutencao"
+            android:textColor="@color/black">
+        </TextView>
+        <TextView
+            android:id="@+id/labelNomePeca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Nome Peca:"
+            android:textColor="#008080"
+            android:textSize="13dp"
+            android:layout_below="@+id/labelDetalhe">
+
+        </TextView>
+        <TextView
+            android:id="@+id/txtNomePeca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:paddingLeft="10dp"
+            android:layout_below="@+id/labelNomePeca">
+        </TextView>
+        <TextView
+            android:id="@+id/labelMarcaPeca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="Marca:"
+            android:textColor="#008080"
+            android:textSize="13dp"
+            android:layout_below="@+id/txtNomePeca">
+        </TextView>
+
+        <TextView
+            android:id="@+id/txtMarcaPeca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:paddingLeft="10dp"
+            android:layout_below="@+id/labelMarcaPeca">
+        </TextView>
+        <TextView
+            android:id="@+id/labelLocalComprouPeca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtMarcaPeca"
+            android:layout_marginTop="6dp"
+            android:text="Loja de Compra"
+            android:textColor="#008080"
+            android:textSize="13dp">
+
+        </TextView>
+        <TextView
+            android:id="@+id/txtLocalComprouPeca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:layout_below="@+id/labelLocalComprouPeca"
+            android:paddingLeft="10dp">
+        </TextView>
+        <TextView
+            android:id="@+id/labelDataCompraPeca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="Data da Compra:"
+            android:textColor="#008080"
+            android:textSize="13dp"
+            android:layout_below="@+id/txtLocalComprouPeca">
+        </TextView>
+        <TextView
+            android:id="@+id/txtDataCompraPeca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:paddingLeft="10dp"
+            android:layout_below="@+id/labelDataCompraPeca">
+        </TextView>
+        <TextView
+            android:id="@+id/labelReferenciaPeca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="Referência:"
+            android:textColor="#008080"
+            android:textSize="13dp"
+            android:layout_below="@+id/txtDataCompraPeca">
+        </TextView>
+        <TextView
+            android:id="@+id/txtReferenciaPeca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:paddingLeft="10dp"
+            android:layout_below="@+id/labelReferenciaPeca">
+        </TextView>
+        <TextView
+            android:id="@+id/labelPrecoPeca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="Valor pago:"
+            android:textColor="#008080"
+            android:textSize="13dp"
+            android:layout_below="@+id/txtReferenciaPeca">
+        </TextView>
+        <TextView
+            android:id="@+id/txtPrecoPeca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:paddingLeft="10dp"
+            android:layout_below="@+id/labelPrecoPeca">
+        </TextView>
+        <TextView
+            android:id="@+id/labelKmVidaUtilPeca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Km vida útil"
+            android:textColor="#008080"
+            android:layout_below="@+id/txtPrecoPeca">
+        </TextView>
+        <TextView
+            android:id="@+id/txtKmVidaUtilPeca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:paddingLeft="10dp"
+            android:textColor="@color/black"
+            android:text=""
+            android:layout_below="@+id/labelKmVidaUtilPeca">
+        </TextView>
+
+        <TextView
+            android:id="@+id/labelCupomPeca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="Cupom"
+            android:textColor="#008080"
+            android:layout_below="@+id/txtKmVidaUtilPeca">
+        </TextView>
+        <TextView
+            android:id="@+id/txtCupomPeca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:paddingLeft="10dp"
+            android:textColor="@color/black"
+            android:text=""
+            android:layout_below="@+id/labelCupomPeca">
+        </TextView>
+        <TextView
+            android:id="@+id/labelQuantidade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="Quantidade Comprado"
+            android:textColor="#008080"
+            android:layout_below="@+id/txtCupomPeca">
+        </TextView>
+        <TextView
+            android:id="@+id/txtQuantidade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:paddingLeft="10dp"
+            android:textColor="@color/black"
+            android:text=""
+            android:layout_below="@+id/labelQuantidade">
+        </TextView>
+
+        <Button
+            android:id="@+id/btnDeletarPeca"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/txtQuantidade"
+            android:padding="3dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="0dp"
+            android:textColor="@color/white"
+            android:text="Deletar Peça">
+        </Button>
+
+
+    </RelativeLayout-->
+
+
+</LinearLayout>

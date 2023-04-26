@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+   <item
+       android:id="@+id/itens_de_manutencao"
+       android:title="@string/itens_de_manutencao"
+       android:icon="@drawable/itens_de_manutencao_24"
+      />
+   <item
+       android:id="@+id/meus_carros"
+       android:title="@string/meus_carros"
+       android:icon="@drawable/ic_meus_carros_24"
+       />
+   <item
+       android:id="@+id/manutencao"
+       android:title="@string/manutecao"
+       android:icon="@drawable/manutencao_carro24"
+   />
+
+</menu>

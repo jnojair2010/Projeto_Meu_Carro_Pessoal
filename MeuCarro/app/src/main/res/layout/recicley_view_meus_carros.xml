@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:paddingTop="0dp"
+    android:background="@color/teal_700">
+
+
+
+
+            <ImageView
+                android:id="@+id/foto_carro"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_below="@+id/nome_meu_carro_fragments"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="0dp"
+                android:background="@color/black"></ImageView>
+            <TextView
+                android:id="@+id/nome_meu_carro_fragments"
+                android:layout_width="214dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp"
+                android:text="CENTER"
+                android:textSize="20dp"
+                android:gravity="left"
+                android:textColor="@color/white"></TextView>
+
+            <Button
+                android:id="@+id/photoCarro"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentEnd="true"
+                android:layout_gravity="end"
+                android:layout_marginStart="62dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="34dp"
+                android:background="@drawable/ic_baseline_photo_camera_24"
+                android:layout_toEndOf="@+id/nome_meu_carro_fragments"
+               ></Button>
+
+            <Button
+                android:id="@+id/btn_deletar_carro"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/foto_carr"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="200dp"
+                android:layout_marginEnd="226dp"
+                android:background="@drawable/ic_baseline_delete_forever_24"
+                ></Button>
+
+            <Button
+                android:id="@+id/detalhe_manutencao"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/foto_carr"
+                android:layout_alignParentEnd="true"
+                android:layout_gravity="end"
+                android:layout_marginTop="200dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/ic_baseline_checklist_24"
+                >
+
+            </Button>
+
+
+</FrameLayout>

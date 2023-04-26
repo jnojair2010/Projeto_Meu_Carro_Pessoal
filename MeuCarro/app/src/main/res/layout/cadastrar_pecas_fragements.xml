@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical">
+    
+
+              <TextView
+                android:id="@+id/txtdata"
+                android:layout_width="match_parent"
+                android:text="Data da Comprar: (Fundamental Cadastrar)"
+                android:textColor="@color/black" android:layout_marginTop="5dp"
+                android:layout_height="30dp">
+              </TextView>
+
+            <EditText
+                android:id="@+id/edtEdtData"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/txtdata"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/selector_background_input"
+                android:text="Data Selecionda"
+                android:textColor="@color/black">
+            </EditText>
+
+
+    <TextView
+                android:id="@+id/txtnome"
+                android:layout_width="match_parent"
+                android:text="Nome do Item:"
+                android:layout_marginTop="15dp"
+                android:layout_below="@+id/edtEdtData"
+                android:textColor="@color/black"
+                android:layout_height="20dp">
+            </TextView>
+
+            <EditText
+                android:id="@+id/edtnome"
+                android:layout_width="match_parent"
+                android:layout_below="@+id/txtnome"
+                android:textColor="@color/black"
+                android:background="@drawable/selector_background_input"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp">
+            </EditText>
+            <TextView
+                android:id="@+id/txtSelectCarro"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_below="@+id/edtnome"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/black"
+                android:text="Selecione carro: CADASTRE 1 CARRO MIN" />
+            <Spinner
+                android:id="@+id/spnSelectCarro"
+                android:layout_width="match_parent"
+                android:background="@drawable/background_selects"
+                android:layout_height="50dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="5dp"
+                android:layout_below="@id/txtSelectCarro">
+            </Spinner>
+            <TextView
+                android:id="@+id/txtMarca"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginTop="15dp"
+                android:text="Marca:"
+                android:textColor="@color/black"
+                android:layout_below="@+id/spnSelectCarro">
+            </TextView>
+            <EditText
+                android:id="@+id/edtMarca"
+                android:layout_width="match_parent"
+                android:background="@drawable/selector_background_input"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/black"
+                android:layout_below="@id/txtMarca">
+            </EditText>
+            <TextView
+                android:id="@+id/txtReferencia"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginTop="15dp"
+                android:text="Referência:"
+                android:textColor="@color/black"
+                android:layout_below="@id/edtMarca">
+            </TextView>
+            <EditText
+                android:id="@+id/edtReferencia"
+                android:layout_width="match_parent"
+                android:background="@drawable/selector_background_input"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/black"
+                android:layout_below="@id/txtReferencia">
+            </EditText>
+            <TextView
+                android:id="@+id/txtKmVidaUtil"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_below="@id/edtReferencia"
+                android:layout_marginTop="16dp"
+                android:textColor="@color/black"
+                android:textSize="13dp"
+                android:text="Km de validade (IMPOTANTE) Ex.: 20.000 km">
+            </TextView>
+            <EditText
+                android:id="@+id/edtKmVidaUtil"
+                android:layout_width="match_parent"
+                android:background="@drawable/seletor_background_input_importante"
+                android:layout_height="50dp"
+                android:layout_below="@id/txtKmVidaUtil"
+                android:textColor="@color/black"
+                android:layout_marginTop="5dp"
+                android:inputType="number">
+            </EditText>
+            <TextView
+                android:id="@+id/txtLocal"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_below="@+id/edtKmVidaUtil"
+                android:text="Local que Comprou"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp">
+            </TextView>
+            <EditText
+                android:id="@+id/edtLocal"
+                android:layout_width="match_parent"
+                android:background="@drawable/selector_background_input"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/black"
+                android:layout_below="@+id/txtLocal">
+            </EditText>
+            <TextView
+                android:id="@+id/txtValor"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginTop="15dp"
+                android:text="Preço R$:"
+                android:textColor="@color/black"
+                android:layout_below="@id/edtLocal">
+            </TextView>
+            <EditText
+                android:id="@+id/edtPreco"
+                android:layout_width="match_parent"
+                android:background="@drawable/selector_background_input"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/black"
+                android:layout_below="@+id/txtValor"
+                android:inputType="numberDecimal">
+            </EditText>
+            <TextView
+                android:id="@+id/txtCupon"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginTop="15dp"
+                android:text="Cupom:"
+                android:textColor="@color/black"
+                android:layout_below="@+id/edtPreco">
+            </TextView>
+            <EditText
+                android:id="@+id/edtCupon"
+                android:layout_width="match_parent"
+                android:background="@drawable/selector_background_input"
+                android:layout_height="50dp"
+                android:textColor="@color/black"
+                android:layout_below="@+id/txtCupon"
+                android:layout_marginTop="5dp">
+            </EditText>
+            <TextView
+                android:id="@+id/txtQuantidade"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_below="@+id/edtCupon"
+                android:textColor="@color/black"
+                android:text="Quantidade:"
+                android:layout_marginTop="15dp">
+            </TextView>
+            <EditText
+                android:id="@+id/edtQuantidade"
+                android:layout_width="match_parent"
+                android:background="@drawable/selector_background_input"
+                android:layout_height="50dp"
+                android:textColor="@color/black"
+                android:layout_below="@+id/txtQuantidade"
+                android:layout_marginTop="5dp"
+                android:inputType="number">
+            </EditText>
+
+            <Button
+                android:id="@+id/btnSalvarPeca"
+                android:layout_width="match_parent"
+                android:text="Salvar"
+                android:background="@drawable/seletor_buttons"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                android:layout_below="@+id/edtQuantidade">
+            </Button>
+
+
+
+</RelativeLayout>

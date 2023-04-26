@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="230dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginLeft="5dp"
+    android:elevation="8dp"
+    android:background="@drawable/custo_card_lista_peca"
+    android:layout_marginRight="5dp"
+    android:layout_marginBottom="10dp">
+
+
+    <TextView
+        android:id="@+id/textViewIndicarCor"
+        android:layout_width="match_parent"
+        android:background="#1C1C1C"
+        android:elevation="3dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_height="70dp"
+    />
+
+    <TextView
+        android:id="@+id/txtNomeDaPeca"
+        android:layout_width="253dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:background="@drawable/background_nome_pecas_indicador"
+        android:elevation="4dp"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp"
+        android:paddingLeft="20dp"
+        android:layout_marginLeft="2dp"
+        android:text="Kit Correia Dentada"
+        android:textColor="@color/white"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/txtDataPeca"
+        android:layout_width="185dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:elevation="5dp"
+        android:paddingLeft="80dp"
+        android:text="25/04/22"
+        android:textColor="@color/white"
+        android:textSize="18dp"></TextView>
+
+    <TextView
+        android:id="@+id/kmFaltante"
+        android:layout_width="78dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="20dp"
+        android:paddingLeft="3dp"
+        android:text="Falta."
+        android:background="#cfd8dc"
+        android:textColor="#263238"
+        android:textSize="18dp" />
+    <TextView
+        android:id="@+id/kmValidade"
+        android:layout_width="78dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="20dp"
+        android:paddingLeft="3dp"
+        android:text="Validade"
+        android:background="#cfd8dc"
+        android:textColor="#263238"
+        android:textSize="18dp" />
+    <TextView
+        android:id="@+id/kmUsado"
+        android:layout_width="78dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="20dp"
+        android:paddingLeft="3dp"
+        android:text="Usado"
+        android:background="#cfd8dc"
+        android:textColor="#263238"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/km_faltantes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="100dp"
+        android:paddingLeft="3dp"
+        android:text="Falta."
+        android:textColor="#263238"
+        android:textSize="18dp" />
+    <TextView
+        android:id="@+id/km_validade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="110dp"
+        android:paddingLeft="3dp"
+        android:text="Validade"
+        android:textColor="#263238"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/km_usado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="100dp"
+        android:paddingLeft="3dp"
+        android:textColor="#263238"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/percent_faltante"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="80dp"
+        android:textSize="18dp"
+        android:layout_gravity="right"
+        android:layout_marginRight="50dp"
+        android:text="95%"
+        android:paddingTop="23dp"
+        android:background="@drawable/indicador_percent"
+        android:textColor="@color/white">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/btnDetalhe"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="left"
+        android:layout_marginTop="180dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:elevation="5dp"
+        android:padding="0dp"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:text="VER DETALHE"
+        android:background="@drawable/button_details">
+
+    </Button>
+
+
+</FrameLayout>

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="15dp"
+    android:layout_marginBottom="1dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayoutDetalheManutencao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="6dp"
+        android:paddingRight="6dp"
+        android:paddingBottom="6dp"
+        android:background="@drawable/seletor_personalizar_relative_layout_detalhe_manutencao">
+
+            <TextView
+                android:id="@+id/labelNomeDetalhe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Detalhe"
+                android:textSize="20dp"
+                android:paddingLeft="10dp"
+                android:background="@drawable/selector_texview_nome_detale_manutencao"
+                android:textColor="@color/black">
+            </TextView>
+            <TextView
+                android:id="@+id/labelNomeManutencao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Manutencao:"
+                android:textColor="#008080"
+                android:textSize="13dp"
+                android:layout_below="@+id/labelNomeDetalhe">
+
+            </TextView>
+            <TextView
+                android:id="@+id/txtNomeManutencao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:textColor="@color/black"
+                android:textSize="17dp"
+                android:paddingLeft="10dp"
+                android:layout_below="@+id/labelNomeManutencao">
+            </TextView>
+            <TextView
+                android:id="@+id/labelNomeMecanico"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="Nome Mecanico:"
+                android:textColor="#008080"
+                android:textSize="13dp"
+                android:layout_below="@+id/txtNomeManutencao">
+            </TextView>
+
+            <TextView
+                android:id="@+id/txtNomeMecanico"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:textColor="@color/black"
+                android:textSize="17dp"
+                android:paddingLeft="10dp"
+                android:layout_below="@+id/labelNomeMecanico">
+            </TextView>
+        <TextView
+            android:id="@+id/labelNomeLovalManutencao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtNomeMecanico"
+            android:layout_marginTop="6dp"
+            android:text="Local Manutencao (Oficina)"
+            android:textColor="#008080"
+            android:textSize="13dp">
+
+        </TextView>
+        <TextView
+            android:id="@+id/txtLocalManutencao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:layout_below="@+id/labelNomeLovalManutencao"
+            android:paddingLeft="10dp">
+        </TextView>
+        <TextView
+            android:id="@+id/labelKmFeitoManutencao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="Km da Manutenção"
+            android:textColor="#008080"
+            android:textSize="13dp"
+            android:layout_below="@+id/txtLocalManutencao">
+        </TextView>
+        <TextView
+            android:id="@+id/txtKmFeitoManutencao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:paddingLeft="10dp"
+            android:layout_below="@+id/labelKmFeitoManutencao">
+        </TextView>
+        <TextView
+            android:id="@+id/labelkmProxTroca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="Proxima Troca:"
+            android:textColor="#008080"
+            android:textSize="13dp"
+            android:layout_below="@+id/txtKmFeitoManutencao">
+        </TextView>
+        <TextView
+            android:id="@+id/txtKmProxManutencao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:paddingLeft="10dp"
+            android:layout_below="@+id/labelkmProxTroca">
+        </TextView>
+        <TextView
+            android:id="@+id/labelPreco"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="Valor pago:"
+            android:textColor="#008080"
+            android:textSize="13dp"
+            android:layout_below="@+id/txtKmProxManutencao">
+        </TextView>
+        <TextView
+            android:id="@+id/txtPreco"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:paddingLeft="10dp"
+            android:layout_below="@+id/labelPreco">
+        </TextView>
+        <Button
+            android:id="@+id/btnDeletarManutencao"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/txtPreco"
+            android:padding="3dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="0dp"
+            android:textColor="@color/white"
+            android:text="Deletar Manutenção">
+        </Button>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="8dp"
+        android:background="@drawable/seletor_personalizar_relative_layout_detalhe_manutencao">>
+        <TextView
+            android:id="@+id/labelSelecionePecas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Selecione uma peça a esta Manutencao:"
+            android:textSize="16dp"
+            android:paddingLeft="10dp"
+            android:background="@drawable/selector_texview_nome_detale_manutencao"
+            android:textColor="@color/black">
+        </TextView>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recicleyViewSelecaoPecasMonitoramento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="3dp"
+            android:layout_marginTop="10dp"
+            android:paddingBottom="15dp"
+            android:paddingRight="3dp"
+            android:layout_below="@+id/labelSelecionePecas"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/seletor_personalizar_relative_layout_detalhe_manutencao">
+        </androidx.recyclerview.widget.RecyclerView>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

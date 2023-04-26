@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="3dp"
+    tools:context=".ActivityBackup">
+
+    <FrameLayout
+        android:id="@+id/layout_uplodas"
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/custo_card_lista_peca"
+        android:padding="8dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/label_nome_uploads"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:text="Digite seu Nome Completo: "
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:layout_height="wrap_content">
+
+        </TextView>
+        <EditText
+            android:id="@+id/edt_nome"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="36dp"
+            android:textColor="@color/black"
+            android:background="@drawable/selector_background_input">
+        </EditText>
+        <TextView
+            android:id="@+id/label_cpf"
+            android:layout_width="match_parent"
+            android:textColor="@color/black"
+            android:layout_marginTop="90dp"
+            android:textSize="15dp"
+            android:text="E-mail ou CPF:"
+            android:layout_height="wrap_content">
+        </TextView>
+        <EditText
+            android:id="@+id/edt_email"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="120dp"
+            android:textColor="@color/black"
+            android:background="@drawable/selector_background_input">
+        </EditText>
+
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:id="@+id/btn_uplodas"
+                android:layout_height="60dp"
+                android:layout_marginTop="180dp"
+                android:textColor="@color/white"
+                android:background="@drawable/seletor_buttons"
+                android:text="UPLOADS"
+             />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/layout_downlodas"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custo_card_lista_peca"
+        android:padding="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/layout_uplodas"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="3dp">
+
+
+        <Button
+            android:id="@+id/btn_downlodas"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"
+            android:background="@drawable/seletor_buttons"
+            android:text="DOWNLOADS" />
+
+        <ProgressBar
+            android:id="@+id/progressBarDownloads"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="393dp"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_marginTop="75dp" />
+
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:id="@+id/instrucao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/custo_card_lista_peca"
+        app:layout_constraintTop_toBottomOf="@+id/layout_downlodas"
+        tools:ignore="MissingConstraints"
+        android:padding="10dp"
+        tools:layout_editor_absoluteX="3dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="    O CPF foi usado como critério de seleção, para que não haver duplicidade de dados a nível nacional,
+ visto que cada cpf é exclusivo de uma pessoa, não havendo possibilidade de mais de uma pessoa tem o mesmo cpf.
+  \n    Porém fica a critério do usuario em usar o CPF ou o E-mail, o e-mail precisa ser válido e que tenha facilidade para lembrar.\n    Caso não tenha facilidade
+de lembrar o e-mail use o cpf"
+            android:textSize="16dp"
+            android:padding="5dp"
+            android:textColor="@color/black">
+        </TextView>
+
+
+    </FrameLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

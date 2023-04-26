@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item
+            android:id="@+id/cadastros"
+            android:title="@string/cadastros"
+            android:icon="@drawable/ic_baseline_app_registration_24"
+            />
+        <item
+            android:id="@+id/ajuda"
+            android:title="@string/ajuda"
+            android:icon="@drawable/cadastrar_manutencao"
+            />
+        <item
+            android:id="@+id/backup"
+            android:title="Backup">
+        </item>
+        <item
+            android:id="@+id/sobre"
+            android:title="Sobre">
+        </item>
+
+</menu>
