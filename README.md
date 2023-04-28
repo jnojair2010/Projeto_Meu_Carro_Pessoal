@@ -1,7 +1,8 @@
 # Projeto_Meu_Carro_Pessoal
-Este projeto "Meu Carro" é um projeto de desafio pessoal para mostrar a minha capacidade de desenvolvimento com java e api rest com php. Meu Objeto em publicar é tornar mais fácil uma possibilidade de ser contratado como desenvolvedor.
-Será postado aqui as funções que foram feita no código java os aquivos será postado em 90% neste repositório publico no entanto será postado completo no  repositório privado, que poderá ser fornecido conforme solicitação.
-Lista de funções desenvolvida Android:
+Este projeto "Meu Carro" é app android, projeto de desafio pessoal, para mostrar a minha capacidade de desenvolvimento com java e api rest com php. 
+Este projeto foi postado 99% como publicar para tornar a divulgação de meu trabalho e 100% no pacote privado.
+está e o início da construção de meu portifólio como promessa de mais.
+Abaixo se encontra a lista de toda as composição de componentes android com java 
 
 1º activity
 2° Fragments
