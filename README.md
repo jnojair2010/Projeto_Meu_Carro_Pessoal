@@ -8,4 +8,6 @@ que foram feita as manuteção, este projeto a principil tem um desafio pessoal 
 publicado para montar o portifolio do desenvolverdor.
 
 layout
-https://user-images.githubusercontent.com/19231998/241274995-a015e91c-03e5-4a71-a17d-ecb0910da9b2.jpeg
+<div>
+  <img src="https://user-images.githubusercontent.com/19231998/241274995-a015e91c-03e5-4a71-a17d-ecb0910da9b2.jpeg" alt="Smiley face" width="42" height="800" style="vertical-align:middle">
+</div>
