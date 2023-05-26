@@ -15,7 +15,7 @@ em breve será publicador na play store.</p>
   </br>
 <div>
   <div float="left">
-       <img src="https://user-images.githubusercontent.com/19231998/241274995-a015e91c-03e5-4a71-a17d-ecb0910da9b2.jpeg" alt="Smiley face" width="400" height="800" style="vertical-align:middle" >
+       <img src="https://user-images.githubusercontent.com/19231998/241274995-a015e91c-03e5-4a71-a17d-ecb0910da9b2.jpeg" alt="Smiley face" width="400" height="750" style="vertical-align:middle" >
   </div>
   </br>
   </br>
