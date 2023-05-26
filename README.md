@@ -9,5 +9,4 @@ publicado para montar o portifolio do desenvolverdor.
 
 layout
 
-!.[indicadores]. https://github.com/jnojair2010/Projeto_Meu_Carro_Pessoal/blob/main/assets/indicadores_de_Pecas.jpeg
-
+!.[indicadores].https://github.com/jnojair2010/Projeto_Meu_Carro_Pessoal/blob/main/assets/indicadores_de_Pecas.jpeg
