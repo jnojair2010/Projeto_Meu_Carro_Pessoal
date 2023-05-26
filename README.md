@@ -9,5 +9,5 @@ publicado para montar o portifolio do desenvolverdor.
 
 layout
 <div>
-  <img src="https://user-images.githubusercontent.com/19231998/241274995-a015e91c-03e5-4a71-a17d-ecb0910da9b2.jpeg" alt="Smiley face" width="42" height="800" style="vertical-align:middle">
+  <img src="https://user-images.githubusercontent.com/19231998/241274995-a015e91c-03e5-4a71-a17d-ecb0910da9b2.jpeg" alt="Smiley face" width="400" height="800" style="vertical-align:middle">
 </div>
