@@ -8,5 +8,4 @@ que foram feita as manuteção, este projeto a principil tem um desafio pessoal 
 publicado para montar o portifolio do desenvolverdor.
 
 layout
-
-![indicadores]https://github.com/jnojair2010/Projeto_Meu_Carro_Pessoal/blob/main/assets/indicadores_de_Pecas.jpeg
+https://user-images.githubusercontent.com/19231998/241274995-a015e91c-03e5-4a71-a17d-ecb0910da9b2.jpeg
