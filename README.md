@@ -5,7 +5,7 @@
 <p>Esta aplicação consiste em gerenciar a manutenção de carros com peças que tem vida útil por kilometros rodads, tem indicadores de desgaste das peças, este projeto teve como objetivo atender as necessidades pessoal do desnvolvedor deste app, objetivando melhorar a manuteção do veículo.
 em breve será publicador na play store.</p>
 </br>
-<h1>Linguagem de Programação:</h1>
+<h1>Linguagem de Programação usados:</h1>
 </br>
   <p>Foi desenvolvido o app android com java e no servidor, back-end foi usado php apenas para consultar, inserir, atualizar dados no banco de dado Mariadb.</p>
   </br>
