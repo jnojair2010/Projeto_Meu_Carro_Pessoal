@@ -13,9 +13,9 @@ em breve será publicador na play store.</p>
 <h1>layout</h1>
   <h2>Tela de indicador</h2>
   </br>
-<div>
+<div style="background-color:#33475b">
   <div float="left">
-       <img src="https://user-images.githubusercontent.com/19231998/241274995-a015e91c-03e5-4a71-a17d-ecb0910da9b2.jpeg" alt="Smiley face" width="400" height="800" style="vertical-align:middle" border="8px solid red" >
+       <img src="https://user-images.githubusercontent.com/19231998/241274995-a015e91c-03e5-4a71-a17d-ecb0910da9b2.jpeg" alt="Smiley face" width="400" height="800" style="vertical-align:middle" >
   </div>
   </br>
   </br>
