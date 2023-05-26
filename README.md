@@ -2,8 +2,7 @@
 
 #Sobre o Projeto
 
-este projeto é uma aplicação de gerenciamento de manutenção de peças de carro,
-foi desenvolvido com o objetivo de acompanhar o desgaste das pesças de carro conforme o km dorado.
+Esta aplicação consiste em gerenciar a manutenção de carros com peças que tem vida útil por kilometros
 
 1º activity
 2° Fragments
