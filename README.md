@@ -54,6 +54,7 @@ em breve será publicador na play store.</p>
   <h2>Tela de Backup</h2>
       </br>
     <div float="left">
-     <img src="https://user-images.githubusercontent.com/19231998/241275029-c6c5f633-ac38-4f85-8b03-429903eecb3f.jpeg" alt="Smiley face" width="400" height="750" style="vertical-align:middle">
+     <img src="https://user-images.githubusercontent.com/19231998/241275026-ec3d8826-c229-4ef4-a322-c3bd3aa4a91e.jpeg" alt="Smiley face" width="400" height="750" style="vertical-align:middle">
   </div>
+
 </div>
