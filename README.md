@@ -22,12 +22,12 @@ em breve será publicador na play store.</p>
   <h2>Tela lista de carro</h2>
   </br>
     <div float="left">
-     <img src="https://user-images.githubusercontent.com/19231998/241275037-13dd2f46-73c6-40a9-a7fc-4649642a7d66.jpeg" alt="Smiley face" width="400" height="800" style="vertical-align:middle">
+     <img src="https://user-images.githubusercontent.com/19231998/241275037-13dd2f46-73c6-40a9-a7fc-4649642a7d66.jpeg" alt="Smiley face" width="400" height="800" style="vertical-align:middle" box-shadow="5px 10px #888888">
   </div>
     <h2>Tela lista de carro</h2>
     </br>
     <div float="left">
-     <img src="https://user-images.githubusercontent.com/19231998/241275037-13dd2f46-73c6-40a9-a7fc-4649642a7d66.jpeg" alt="Smiley face" width="400" height="800" style="vertical-align:middle">
+     <img src="https://user-images.githubusercontent.com/19231998/241275037-13dd2f46-73c6-40a9-a7fc-4649642a7d66.jpeg" alt="Smiley face" width="400" height="800" style="vertical-align:middle" box-shadow="5px 10px #888888">
   </div>
     <h2>Tela de vinculação de peça a uma manutenção</h2>
     </br>
