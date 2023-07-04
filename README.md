@@ -1,13 +1,16 @@
-# Meu carro
-é uma aplicadotivo de gerencimaneto de manuteção de carros.
+# Meu Carro
+É um aplicativo de gerencimaneto em manuteção de carros.
 
 <h1>Sobre Aplicação</h1>
-<p>Esta aplicação consiste em gerenciar a manutenção de carros com peças que tem vida útil por kilometros rodads, tem indicadores de desgaste das peças, este projeto teve como objetivo atender as necessidades pessoal do desnvolvedor deste app, objetivando melhorar a manuteção do veículo.
-em breve será publicador na play store.</p>
+<p>Esta aplicação consiste em gerenciar a manutenção do meu carros com peças que tem vida útil por kilometros rodados, apresenta indicadores de desgaste das peças conforme km rodado, este projeto teve como objetivo atender as necessidades pessoal do desnvolvedor deste app, objetivando melhorar a manuteção do veículo.
+em breve pretendo publicador na play store.</p>
 </br>
 <h1>Linguagem de Programação usados:</h1>
 </br>
-  <p>Foi desenvolvido o app android com java e no servidor, back-end foi usado php apenas para consultar, inserir, atualizar dados no banco de dado Mariadb.</p>
+  <p>Foi desenvolvido o app android com java e no servidor, back-end foi usado php apenas para consultar, inserir, atualizar dados no banco de dado Mariadb.</br>
+  Foi aplicado com a linguagem interpretativa PHP todos os comando sql no banco de dado Mariadb que usa o mysql. </br>
+  
+  </p>
   </br>
 <div>
 <h1>layout</h1>
