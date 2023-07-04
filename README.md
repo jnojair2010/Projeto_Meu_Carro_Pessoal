@@ -7,6 +7,16 @@ em breve pretendo publicador na play store.</p>
 </br>
 <h1>Linguagem de Programação usados:</h1>
 </br>
+  <h2> Java com Android</h2>
+    <p> Com a Liguagem java foi desenvolvido o app mobile para android </p>
+    <h3> SQlite Android</h3>
+    <p> No banco de dados sqlite do android, foi usado as sql de:</p>
+    <h4>insert</h4>
+    <h4>delet</h4>
+    <h4>updade</h4>
+    <h4>select</h4> </br>
+  <h2>PHP linguagem interpretador</h2>
+  
   <p>Foi desenvolvido o app android com java e no servidor, back-end foi usado php apenas para consultar, inserir, atualizar dados no banco de dado Mariadb.</br>
   Foi aplicado com a linguagem interpretativa PHP todos os comando sql no banco de dado Mariadb que usa o mysql. </br>
   
