@@ -21,7 +21,7 @@ em breve pretendo publicador na play store.</p>
     <h4>select</h4> </br>
   <h2>Backend</h2>
   <h2> Php e Mariadb</h2>
-  <p> No backend foi aplicado o php para realizar as sqls com o banco Mariadb instalados no servido linux ubuntu e as requisições http retornando dados Json</p>
+  <p> No backend foi aplicado o php para realizar as sqls com o banco Mariadb instalados no servido linux ubuntu e as requisições http retornando dados Json para o app.</p>
   <h3> Mariadb</h3>
     <p> No banco de dados mariadb foi usado as sql de:</p>
     <h4>insert</h4>
