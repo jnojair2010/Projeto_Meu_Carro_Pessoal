@@ -2,7 +2,7 @@
 É um aplicativo de gerencimaneto em manuteção de carros.
 
 <h1>Sobre Aplicação</h1>
-<p>Esta aplicação consiste em gerenciar a manutenção do meu carros com peças que tem vida útil por kilometros rodados, apresenta indicadores de desgaste das peças conforme km rodado, este projeto teve como objetivo atender as necessidades pessoal do desnvolvedor deste app, objetivando melhorar a manuteção do veículo.
+<p>Esta aplicação consiste em gerenciar a manutenção do meu carro com peças que deprecia por kilometros rodados, apresenta indicadores de desgaste das peça, este projeto teve como objetivo atender as necessidades pessoal do desnvolvedor, objetivando melhorar a manuteção do veículo.
 em breve pretendo publicador na play store.</p>
 </br>
 <h1>Linguagem de Programação usados:</h1>
