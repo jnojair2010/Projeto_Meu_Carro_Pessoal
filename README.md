@@ -8,7 +8,7 @@ em breve pretendo publicador na play store.</p>
 <h1>Linguagem de Programação usados:</h1>
 </br>
   <h2> Java com Android</h2>
-    <p> Com a Liguagem java foi desenvolvido o app mobile para android </p>
+    <p> Com a Liguagem java foi desenvolvido o app mobile para android, foi usados: </p>
     <h4>Retrofit para requisição http</h4>
     <h4>RecycleView</h4>
     <h4>Fragments</h4>
