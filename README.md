@@ -9,6 +9,10 @@ em breve pretendo publicador na play store.</p>
 </br>
   <h2> Java com Android</h2>
     <p> Com a Liguagem java foi desenvolvido o app mobile para android </p>
+    <h4>Retrofit para requisição http</h4>
+    <h4>RecycleView</h4>
+    <h4>Fragments</h4>
+    <h4>menus ...</h4>
     <h3> SQlite Android</h3>
     <p> No banco de dados sqlite do android, foi usado as sql de:</p>
     <h4>insert</h4>
@@ -17,7 +21,7 @@ em breve pretendo publicador na play store.</p>
     <h4>select</h4> </br>
   <h1>Backend</h1>
   <h2> Php e Mariadb</h2>
-  <p> No backend foi aplicado o php para realizar as sqls com o banco Mariadb instalados no servido linus ubuntu</p>
+  <p> No backend foi aplicado o php para realizar as sqls com o banco Mariadb instalados no servido linux ubuntu</p>
   <h3> Mariadb</h3>
     <p> No banco de dados mariadb foi usado as sql de:</p>
     <h4>insert</h4>
