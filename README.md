@@ -15,12 +15,14 @@ em breve pretendo publicador na play store.</p>
     <h4>delet</h4>
     <h4>updade</h4>
     <h4>select</h4> </br>
-  <h2>PHP linguagem interpretador</h2>
-  
-  <p>Foi desenvolvido o app android com java e no servidor, back-end foi usado php apenas para consultar, inserir, atualizar dados no banco de dado Mariadb.</br>
-  Foi aplicado com a linguagem interpretativa PHP todos os comando sql no banco de dado Mariadb que usa o mysql. </br>
-  
-  </p>
+  <h1>Backend</h1>
+  <h2> Php e Mariadb</h2>
+  <p> No backend foi aplicado o php para realizar as sqls com o banco Mariadb instalados no servido linus ubuntu</p></br>
+  <h3> Mariadb</h3>
+    <p> No banco de dados mariadb foi usado as sql de:</p>
+    <h4>insert</h4>
+    <h4>delet</h4>
+    <h4>select</h4> </br>
   </br>
 <div>
 <h1>layout</h1>
