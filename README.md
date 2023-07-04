@@ -12,7 +12,8 @@ em breve pretendo publicador na play store.</p>
     <h4>Retrofit para requisição http</h4>
     <h4>RecycleView</h4>
     <h4>Fragments</h4>
-    <h4>Navigation Bar "navegação inferior"</h4> </br>
+    <h4>Navigation Bar "navegação inferior"</h4>
+    <h4>Menu de naveção</h4> </br>
     <h2> SQlite Android</h2>
     <p> No banco de dados sqlite do android, foi usado as sql de:</p>
     <h4>insert</h4>
